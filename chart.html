@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chart</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <section>
+        <select name="select" id="select">
+            <option value="weekly" disabled selected>Select a time period</option>
+            <option value="daily">Daily</option>
+            <option value="monthly">Monthly</option>
+            <option value="yearly">Yearly</option>
+        </select>
+    </section>
+    <section>
+        <canvas class="myChart" width="100vw" height="45"></canvas>
+    </section>
+    <script src="chart.js"></script>
+</body>
+</html>
